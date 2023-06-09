@@ -5,21 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
-
-    <com.google.android.material.appbar.AppBarLayout
+    tools:context=".MainActivity"
+    android:background="@color/white">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fitsSystemWindows="true">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/sakilookimg"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize" />
+            android:layout_height="218dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/sakilook" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+        <Button
+            android:textColor="#F8F8F8"
+            android:id="@+id/loginbt"
+            android:layout_width="196dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#83DF8C"
+            android:text="@string/login"
+            android:textSize="17dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signinmsg"
+            android:layout_gravity="center"
+            android:layout_marginTop="57px"/>
+        <Button
+            android:textColor="#F8F8F8"
+            android:layout_width="196dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:text="@string/signin"
+            android:textSize="17dp"
+            android:backgroundTint="#D9D9D9"/>
+        <TextView
+            android:text="@string/copywrite"
+            android:textSize="39px"
+            android:textColor="#818181"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="680px"/>
 
-    <include layout="@layout/content_main" />
+
+    </LinearLayout>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
