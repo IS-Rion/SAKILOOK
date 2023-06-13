@@ -1,15 +1,19 @@
 <resources>
     <string name="app_name">SAKILOOK</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
-    <string name="lorem_ipsum">
-        SAKILOOK/FutureThinker
-        おはようございます。
-        福嶋悠太です（３回目）
-    </string>
+    <string name="login">ログイン</string>
+    <string name="signinmsg">初めての人は</string>
+    <string name="signin">新規登録</string>
+    <string name="copywrite">©Future Thinker</string>
+    <string name="mailadress">メールアドレス</string>
+    <string name="usersname">ユーザー名</string>
+    <string name="password">パスワード</string>
+    <string name="birth">生年月日を入力してください</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
 </resources>
